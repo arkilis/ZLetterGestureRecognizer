@@ -1,4 +1,4 @@
-###ZLetterGestureRecogniser
+### ZLetterGestureRecogniser
 
 **Swift:** `4.1`
 
