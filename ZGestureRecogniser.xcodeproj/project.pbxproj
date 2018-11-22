@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57643A321A66A0600A54FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643A221A66A0600A54FC8 /* AppDelegate.swift */; };
+		B57643A521A66A0600A54FC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643A421A66A0600A54FC8 /* ViewController.swift */; };
+		B57643A821A66A0600A54FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57643A621A66A0600A54FC8 /* Main.storyboard */; };
+		B57643AA21A66A0800A54FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57643A921A66A0800A54FC8 /* Assets.xcassets */; };
+		B57643AD21A66A0800A54FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57643AB21A66A0800A54FC8 /* LaunchScreen.storyboard */; };
+		B57643B821A66A0800A54FC8 /* ZGestureRecogniserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643B721A66A0800A54FC8 /* ZGestureRecogniserTests.swift */; };
+		B57643C321A66A0800A54FC8 /* ZGestureRecogniserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643C221A66A0800A54FC8 /* ZGestureRecogniserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57643B421A66A0800A54FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B576439721A66A0600A54FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B576439E21A66A0600A54FC8;
+			remoteInfo = ZGestureRecogniser;
+		};
+		B57643BF21A66A0800A54FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B576439721A66A0600A54FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B576439E21A66A0600A54FC8;
+			remoteInfo = ZGestureRecogniser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B576439F21A66A0600A54FC8 /* ZGestureRecogniser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGestureRecogniser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57643A221A66A0600A54FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B57643A421A66A0600A54FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B57643A721A66A0600A54FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57643A921A66A0800A54FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B57643AC21A66A0800A54FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B57643AE21A66A0800A54FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57643B321A66A0800A54FC8 /* ZGestureRecogniserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGestureRecogniserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57643B721A66A0800A54FC8 /* ZGestureRecogniserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGestureRecogniserTests.swift; sourceTree = "<group>"; };
+		B57643B921A66A0800A54FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57643BE21A66A0800A54FC8 /* ZGestureRecogniserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGestureRecogniserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57643C221A66A0800A54FC8 /* ZGestureRecogniserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGestureRecogniserUITests.swift; sourceTree = "<group>"; };
+		B57643C421A66A0800A54FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B576439C21A66A0600A54FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57643B021A66A0800A54FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57643BB21A66A0800A54FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B576439621A66A0600A54FC8 = {
+			isa = PBXGroup;
+			children = (
+				B57643A121A66A0600A54FC8 /* ZGestureRecogniser */,
+				B57643B621A66A0800A54FC8 /* ZGestureRecogniserTests */,
+				B57643C121A66A0800A54FC8 /* ZGestureRecogniserUITests */,
+				B57643A021A66A0600A54FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57643A021A66A0600A54FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B576439F21A66A0600A54FC8 /* ZGestureRecogniser.app */,
+				B57643B321A66A0800A54FC8 /* ZGestureRecogniserTests.xctest */,
+				B57643BE21A66A0800A54FC8 /* ZGestureRecogniserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57643A121A66A0600A54FC8 /* ZGestureRecogniser */ = {
+			isa = PBXGroup;
+			children = (
+				B57643A221A66A0600A54FC8 /* AppDelegate.swift */,
+				B57643A421A66A0600A54FC8 /* ViewController.swift */,
+				B57643A621A66A0600A54FC8 /* Main.storyboard */,
+				B57643A921A66A0800A54FC8 /* Assets.xcassets */,
+				B57643AB21A66A0800A54FC8 /* LaunchScreen.storyboard */,
+				B57643AE21A66A0800A54FC8 /* Info.plist */,
+			);
+			path = ZGestureRecogniser;
+			sourceTree = "<group>";
+		};
+		B57643B621A66A0800A54FC8 /* ZGestureRecogniserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B57643B721A66A0800A54FC8 /* ZGestureRecogniserTests.swift */,
+				B57643B921A66A0800A54FC8 /* Info.plist */,
+			);
+			path = ZGestureRecogniserTests;
+			sourceTree = "<group>";
+		};
+		B57643C121A66A0800A54FC8 /* ZGestureRecogniserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B57643C221A66A0800A54FC8 /* ZGestureRecogniserUITests.swift */,
+				B57643C421A66A0800A54FC8 /* Info.plist */,
+			);
+			path = ZGestureRecogniserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B576439E21A66A0600A54FC8 /* ZGestureRecogniser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57643C721A66A0800A54FC8 /* Build configuration list for PBXNativeTarget "ZGestureRecogniser" */;
+			buildPhases = (
+				B576439B21A66A0600A54FC8 /* Sources */,
+				B576439C21A66A0600A54FC8 /* Frameworks */,
+				B576439D21A66A0600A54FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGestureRecogniser;
+			productName = ZGestureRecogniser;
+			productReference = B576439F21A66A0600A54FC8 /* ZGestureRecogniser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B57643B221A66A0800A54FC8 /* ZGestureRecogniserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57643CA21A66A0800A54FC8 /* Build configuration list for PBXNativeTarget "ZGestureRecogniserTests" */;
+			buildPhases = (
+				B57643AF21A66A0800A54FC8 /* Sources */,
+				B57643B021A66A0800A54FC8 /* Frameworks */,
+				B57643B121A66A0800A54FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57643B521A66A0800A54FC8 /* PBXTargetDependency */,
+			);
+			name = ZGestureRecogniserTests;
+			productName = ZGestureRecogniserTests;
+			productReference = B57643B321A66A0800A54FC8 /* ZGestureRecogniserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B57643BD21A66A0800A54FC8 /* ZGestureRecogniserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57643CD21A66A0800A54FC8 /* Build configuration list for PBXNativeTarget "ZGestureRecogniserUITests" */;
+			buildPhases = (
+				B57643BA21A66A0800A54FC8 /* Sources */,
+				B57643BB21A66A0800A54FC8 /* Frameworks */,
+				B57643BC21A66A0800A54FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57643C021A66A0800A54FC8 /* PBXTargetDependency */,
+			);
+			name = ZGestureRecogniserUITests;
+			productName = ZGestureRecogniserUITests;
+			productReference = B57643BE21A66A0800A54FC8 /* ZGestureRecogniserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B576439721A66A0600A54FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SunSuper;
+				TargetAttributes = {
+					B576439E21A66A0600A54FC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B57643B221A66A0800A54FC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B576439E21A66A0600A54FC8;
+					};
+					B57643BD21A66A0800A54FC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B576439E21A66A0600A54FC8;
+					};
+				};
+			};
+			buildConfigurationList = B576439A21A66A0600A54FC8 /* Build configuration list for PBXProject "ZGestureRecogniser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B576439621A66A0600A54FC8;
+			productRefGroup = B57643A021A66A0600A54FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B576439E21A66A0600A54FC8 /* ZGestureRecogniser */,
+				B57643B221A66A0800A54FC8 /* ZGestureRecogniserTests */,
+				B57643BD21A66A0800A54FC8 /* ZGestureRecogniserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B576439D21A66A0600A54FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57643AD21A66A0800A54FC8 /* LaunchScreen.storyboard in Resources */,
+				B57643AA21A66A0800A54FC8 /* Assets.xcassets in Resources */,
+				B57643A821A66A0600A54FC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57643B121A66A0800A54FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57643BC21A66A0800A54FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B576439B21A66A0600A54FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57643A521A66A0600A54FC8 /* ViewController.swift in Sources */,
+				B57643A321A66A0600A54FC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57643AF21A66A0800A54FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57643B821A66A0800A54FC8 /* ZGestureRecogniserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57643BA21A66A0800A54FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57643C321A66A0800A54FC8 /* ZGestureRecogniserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B57643B521A66A0800A54FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B576439E21A66A0600A54FC8 /* ZGestureRecogniser */;
+			targetProxy = B57643B421A66A0800A54FC8 /* PBXContainerItemProxy */;
+		};
+		B57643C021A66A0800A54FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B576439E21A66A0600A54FC8 /* ZGestureRecogniser */;
+			targetProxy = B57643BF21A66A0800A54FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B57643A621A66A0600A54FC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57643A721A66A0600A54FC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57643AB21A66A0800A54FC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57643AC21A66A0800A54FC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57643C521A66A0800A54FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B57643C621A66A0800A54FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57643C821A66A0800A54FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4339MNE7FE;
+				INFOPLIST_FILE = ZGestureRecogniser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SunSuper.ZGestureRecogniser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57643C921A66A0800A54FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4339MNE7FE;
+				INFOPLIST_FILE = ZGestureRecogniser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SunSuper.ZGestureRecogniser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B57643CB21A66A0800A54FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4339MNE7FE;
+				INFOPLIST_FILE = ZGestureRecogniserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SunSuper.ZGestureRecogniserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGestureRecogniser.app/ZGestureRecogniser";
+			};
+			name = Debug;
+		};
+		B57643CC21A66A0800A54FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4339MNE7FE;
+				INFOPLIST_FILE = ZGestureRecogniserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SunSuper.ZGestureRecogniserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGestureRecogniser.app/ZGestureRecogniser";
+			};
+			name = Release;
+		};
+		B57643CE21A66A0800A54FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4339MNE7FE;
+				INFOPLIST_FILE = ZGestureRecogniserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SunSuper.ZGestureRecogniserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZGestureRecogniser;
+			};
+			name = Debug;
+		};
+		B57643CF21A66A0800A54FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4339MNE7FE;
+				INFOPLIST_FILE = ZGestureRecogniserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SunSuper.ZGestureRecogniserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZGestureRecogniser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B576439A21A66A0600A54FC8 /* Build configuration list for PBXProject "ZGestureRecogniser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57643C521A66A0800A54FC8 /* Debug */,
+				B57643C621A66A0800A54FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57643C721A66A0800A54FC8 /* Build configuration list for PBXNativeTarget "ZGestureRecogniser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57643C821A66A0800A54FC8 /* Debug */,
+				B57643C921A66A0800A54FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57643CA21A66A0800A54FC8 /* Build configuration list for PBXNativeTarget "ZGestureRecogniserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57643CB21A66A0800A54FC8 /* Debug */,
+				B57643CC21A66A0800A54FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57643CD21A66A0800A54FC8 /* Build configuration list for PBXNativeTarget "ZGestureRecogniserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57643CE21A66A0800A54FC8 /* Debug */,
+				B57643CF21A66A0800A54FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B576439721A66A0600A54FC8 /* Project object */;
+}
