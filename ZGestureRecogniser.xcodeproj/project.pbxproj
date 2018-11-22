@@ -14,6 +14,7 @@
 		B57643AD21A66A0800A54FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57643AB21A66A0800A54FC8 /* LaunchScreen.storyboard */; };
 		B57643B821A66A0800A54FC8 /* ZGestureRecogniserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643B721A66A0800A54FC8 /* ZGestureRecogniserTests.swift */; };
 		B57643C321A66A0800A54FC8 /* ZGestureRecogniserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643C221A66A0800A54FC8 /* ZGestureRecogniserUITests.swift */; };
+		B57643D121A66A6700A54FC8 /* ZLetterGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57643D021A66A6700A54FC8 /* ZLetterGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B57643BE21A66A0800A54FC8 /* ZGestureRecogniserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGestureRecogniserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57643C221A66A0800A54FC8 /* ZGestureRecogniserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGestureRecogniserUITests.swift; sourceTree = "<group>"; };
 		B57643C421A66A0800A54FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57643D021A66A6700A54FC8 /* ZLetterGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLetterGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B57643A921A66A0800A54FC8 /* Assets.xcassets */,
 				B57643AB21A66A0800A54FC8 /* LaunchScreen.storyboard */,
 				B57643AE21A66A0800A54FC8 /* Info.plist */,
+				B57643D021A66A6700A54FC8 /* ZLetterGestureRecognizer.swift */,
 			);
 			path = ZGestureRecogniser;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57643A521A66A0600A54FC8 /* ViewController.swift in Sources */,
+				B57643D121A66A6700A54FC8 /* ZLetterGestureRecognizer.swift in Sources */,
 				B57643A321A66A0600A54FC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,8 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4339MNE7FE;
+				DEVELOPMENT_TEAM = 43H6LUT4WJ;
 				INFOPLIST_FILE = ZGestureRecogniser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,8 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4339MNE7FE;
+				DEVELOPMENT_TEAM = 43H6LUT4WJ;
 				INFOPLIST_FILE = ZGestureRecogniser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
